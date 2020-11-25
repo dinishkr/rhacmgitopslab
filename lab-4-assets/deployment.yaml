@@ -16,7 +16,7 @@ spec:
         app: httpd
     spec:
       containers:
-      - image: rhscl/httpd-24-rhel7 
+      - image: nginx:1.17.0
         name: httpd
         ports:
-        - containerPort: 8080
+        - containerPort: 80
